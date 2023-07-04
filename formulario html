@@ -1,0 +1,56 @@
+<section>
+    <h2>formulário</h2>
+    <fieldset>
+      <legend>sexo</legend>
+      <ul>
+          <li>
+            <label for="title_1">
+              <input type="radio" id="title_1" name="title" value="M." >
+              masculino
+            </label>
+          </li>
+          <li>
+            <label for="title_2">
+              <input type="radio" id="title_2" name="title" value="Ms.">
+              feminino
+            </label>
+          </li>
+      </ul>
+    </fieldset>
+    <p>
+      <label for="name">
+        <span>Name: </span>
+        <strong><abbr title="required"></abbr></strong>
+      </label>
+      <input type="text" id="name" name="username">
+    </p>
+    <p>
+      <label for="mail">
+        <span>E-mail: </span>
+        <strong><abbr title="required"></abbr></strong>
+      </label>
+      <input type="email" id="mail" name="usermail">
+    </p>
+    <p>
+      <label for="pwd">
+        <span>Password: </span>
+        <strong><abbr title="required"></abbr></strong>
+      </label>
+      <input type="password" id="pwd" name="password">
+    </p>
+</section>
+
+<p> <button type="submit">validar</button> </p>
+
+<form>
+    Data de nascimento: <input type="date" name="nascimento">
+</form>
+
+<form>
+    <input type="checkbox" name="veiculo1" value="bicicleta">Eu tenho uma bicicleta<br>
+    <input type="checkbox" name="veiculo2" value="carro">Eu tenho um carro<br>
+    <input type="checkbox" name="veiculo3" value="moto">Eu tenho uma moto
+</form>
+<form>
+    Selecione sua cor preferida: <input type="color" name="favcor" value="#0000FF">
+</form>
